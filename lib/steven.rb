@@ -59,7 +59,7 @@ module Steven
 
   end
 
-  class SpecFile < Struct.new(:name, :size)
+  class SpecFile < Struct.new(:filename, :size)
   end
 
 end
